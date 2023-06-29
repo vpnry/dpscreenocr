@@ -30,7 +30,7 @@ def translate_text(text):
 
 # Translate the input text
 translated_text = translate_text(text)
-print("Translated Text:", translated_text)
+# print("Translated Text:", translated_text)
 
 file_path = os.path.expanduser("~/pnrytexttofile.txt")
 
@@ -48,6 +48,8 @@ os.system("gedit " + file_path)
 # Generated with ChatGPT
 
 # sudo apt install translate-shell 
+# sudo apt install gedit
+
 # sudo apt install tesseract-ocr-script-jpan
 
 # Remember to chmod + x translate_script.py
